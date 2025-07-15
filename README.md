@@ -46,7 +46,7 @@ Al pulsar el botón "Más Información" en cualquier resultado de búsqueda o li
 
 ### Frontend:
 
-* **[Angular](https://angular.io/) (v19.2.0, con Signals):** Framework principal para la construcción de la interfaz de usuario, utilizando Signals para la gestión de estado reactivo.
+* **[Angular](https://angular.io/) (v19.2.14, con Signals):** Framework principal para la construcción de la interfaz de usuario, utilizando Signals para la gestión de estado reactivo.
 * **[TypeScript](https://www.typescriptlang.org/) (~5.7.2):** Lenguaje de programación base que añade tipado estático.
 * **[Tailwind CSS](https://tailwindcss.com/) (v3.4.17):** Framework CSS de utilidad para un diseño rápido y responsivo.
 * **[DaisyUI](https://daisyui.com/) (v4.12.24):** Biblioteca de componentes UI para Tailwind CSS.
