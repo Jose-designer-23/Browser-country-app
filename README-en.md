@@ -46,11 +46,15 @@ Upon clicking the "More Info" button in any search result or continent list, a *
 
 ### Frontend:
 
-* [**Angular**](https://angular.io/) - Robust framework for building the user interface.
-* [**RxJS**](https://rxjs.dev/) - For managing asynchronous data streams and optimizing searches (e.g., `debounceTime`).
-* **External Countries API:** Connects to an external API (such as REST Countries API or similar) to fetch detailed country information.
+* **[Angular](https://angular.io/) (v19.2.0, with Signals):** The main framework for building the user interface, utilizing Signals for reactive state management.
+* **[TypeScript](https://www.typescriptlang.org/) (~5.7.2):** The base programming language that adds static typing.
+* **[Tailwind CSS](https://tailwindcss.com/) (v3.4.17):** A utility-first CSS framework for fast and responsive design.
+* **[DaisyUI](https://daisyui.com/) (v4.12.24):** A UI component library for Tailwind CSS.
+* **[RxJS](https://rxjs.dev/) (~7.8.0):** For managing asynchronous data streams.
 
----
+### Data Integration:
+
+* **Countries API:** The application connects to an external API (e.g., [REST Countries API](https://restcountries.com/) or similar) to fetch and display country-related data.
 
 ## 🚀 How to Run the Project
 
