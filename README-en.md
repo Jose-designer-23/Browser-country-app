@@ -46,7 +46,7 @@ Upon clicking the "More Info" button in any search result or continent list, a *
 
 ### Frontend:
 
-* **[Angular](https://angular.io/) (v19.2.0, with Signals):** The main framework for building the user interface, utilizing Signals for reactive state management.
+* **[Angular](https://angular.io/) (v19.2.14, with Signals):** The main framework for building the user interface, utilizing Signals for reactive state management.
 * **[TypeScript](https://www.typescriptlang.org/) (~5.7.2):** The base programming language that adds static typing.
 * **[Tailwind CSS](https://tailwindcss.com/) (v3.4.17):** A utility-first CSS framework for fast and responsive design.
 * **[DaisyUI](https://daisyui.com/) (v4.12.24):** A UI component library for Tailwind CSS.
