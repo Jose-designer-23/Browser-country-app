@@ -46,11 +46,15 @@ Al pulsar el botón "Más Información" en cualquier resultado de búsqueda o li
 
 ### Frontend:
 
-* [**Angular**](https://angular.io/) - Framework robusto para la construcción de la interfaz de usuario.
-* [**RxJS**](https://rxjs.dev/) - Para la gestión de flujos de datos asíncronos y optimización de búsquedas (e.g., `debounceTime`).
-* **API Externa de Países:** Se conecta a una API externa (como REST Countries API o similar) para obtener la información detallada de los países.
+* **[Angular](https://angular.io/) (v19.2.0, con Signals):** Framework principal para la construcción de la interfaz de usuario, utilizando Signals para la gestión de estado reactivo.
+* **[TypeScript](https://www.typescriptlang.org/) (~5.7.2):** Lenguaje de programación base que añade tipado estático.
+* **[Tailwind CSS](https://tailwindcss.com/) (v3.4.17):** Framework CSS de utilidad para un diseño rápido y responsivo.
+* **[DaisyUI](https://daisyui.com/) (v4.12.24):** Biblioteca de componentes UI para Tailwind CSS.
+* **[RxJS](https://rxjs.dev/) (~7.8.0):** Para la gestión de flujos de datos asíncronos.
 
----
+### Integración de Datos:
+
+* **API de Países:** La aplicación se conecta a una API externa (por ejemplo, [REST Countries API](https://restcountries.com/) o similar) para obtener y mostrar datos relacionados con países.
 
 ## 🚀 Cómo Ejecutar el Proyecto
 
